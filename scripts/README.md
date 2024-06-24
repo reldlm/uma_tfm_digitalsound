@@ -9,7 +9,7 @@ El directorio está compuesto por:
  - wav_to_csv.m
  - csv_to_vhdl.py
 
-#### /files
+### /files
 Directorio que almacena los archivos de respuesta al impulso y el resto de archivos de salida generados por los scripts.
 
 A su vez está dividido en:
@@ -18,7 +18,7 @@ A su vez está dividido en:
  - /vhd -> Archivos de respuesta al impulso en formato .vhd
 
 
-#### wav_to_csv
+### wav_to_csv
 Script de Matlab encargado de transformar los archivos de respuesta originales .wav en archivos .csv. Para correrlo es necesario abrir el archivo en Matlab R2021a.
 
 El archivo de respuesta al impulso de entrada se establece en la línea 3 del script:
@@ -35,7 +35,7 @@ csvwrite('./files/csv/ir_stairwell_44k.csv', timeResponse(1:32768));
 
 El valor de rango indica el número de muestras de la respuesta al impulso que se van a incluir en el archivo .csv 
 
-#### csv_to_vhdl.py
+### csv_to_vhdl.py
 Script de Python encargado de transformar los valores de respuesta almacenados en el archivo .csv a un archivo .vhd para su posterior integración en el proyecto general de Vivado.
 
 El archivo de respuesta al impulso de entrada .csv se establece en la línea 6 del script:
