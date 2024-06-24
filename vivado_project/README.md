@@ -2,7 +2,7 @@
 
 El proyecto se ha desarrollado utilizando Vivado 2019.1 con la placa Digilent Basys3 como base de desarrollo. Esta placa integra una FPGA de la marca Xilinx modelo  XC7A35T-1CPG236C.
 
-El directorio está compuesto por
+El directorio está compuesto por:
  - /cons
  - /ip
  - /src

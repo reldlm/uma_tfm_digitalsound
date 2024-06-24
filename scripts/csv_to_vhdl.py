@@ -4,7 +4,7 @@ import csv
 
 # Input parameters
 input_csv_file = './files/csv/ir_stairwell_44k.csv'
-output_vhd_file = './files/vhd/ir_buffer.vhd'
+output_vhd_file = './files/vhd/tfm_ir_coeff_buffer.vhd'
 n_rams = 32
 bits = 10
 values_per_line = 4
