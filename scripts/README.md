@@ -18,7 +18,7 @@ A su vez está dividido en:
  - /vhd -> Archivos de respuesta al impulso en formato .vhd
 
 
-### wav_to_csv
+### wav_to_csv.m
 Script de Matlab encargado de transformar los archivos de respuesta originales .wav en archivos .csv. Para correrlo es necesario abrir el archivo en Matlab R2021a.
 
 El archivo de respuesta al impulso de entrada se establece en la línea 3 del script:
