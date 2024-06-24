@@ -1,0 +1,7 @@
+/vivado_project/tfm_project
+/vivado_project/ip/*.xdc
+/vivado_project/ip/*.v
+/vivado_project/ip/*.vhdl
+/vivado_project/ip/*.dcp
+/vivado_project/ip/*.xml
+/vivado_project/ip/*.vh
